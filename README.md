@@ -1,4 +1,3 @@
-"# LLM-MDE" 
 # Large Language Models Can Understand Depth from Monocular Images
 
 ![pytorch](https://img.shields.io/badge/pytorch-v1.10-green.svg?style=plastic)
@@ -32,15 +31,9 @@ You can first download one of the models from the model:
 
 Get the links of the following models:
 
-+ [```PST-large.p```]
 + Other models coming soon...
 
 And put the ```.p``` file into the directory ```models/```. After that, you need to update the ```config.json```  according to the pre-trained model you have chosen to run the predictions (this means that if you load a depth-only model, then you have to set ```type``` to ```depth``` for example ....
-
-### :dart: Run a prediction
-
-Put your input images (that have to be ```.png``` or ```.jpg```) into the ```input/``` folder. Then, just run ```python run.py``` and you should get the depth maps as well as the segmentation masks in the ```output/``` folder.
-
 
 ## :hammer: Training
 
