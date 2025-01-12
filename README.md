@@ -40,7 +40,7 @@ And put the ```.p``` file into the directory ```models/```. After that, you need
 ### :wrench: Build the dataset
 
 Our model is trained on a combination of
-+ [Raw NYU Dataset]([https://github.com/Howtocreateaname/DL-based-porosity-characterization](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html))
++ [Raw NYU Dataset](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html)
 
 
 ### :pencil: Configure ```arguments_train_nyu.txt```
