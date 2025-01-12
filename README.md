@@ -4,8 +4,6 @@
 ![wandb](https://img.shields.io/badge/wandb-v0.12.10-blue.svg?style=plastic)
 ![scipy](https://img.shields.io/badge/scipy-v1.7.3-orange.svg?style=plastic)
 
-<!-- ![presentation](https://i.ibb.co/rbySmMc/DL-FOD-POSTER-1.png) -->
-
 <p align="center">
   <img src="images/pull_figure.png"/>
 </p>
