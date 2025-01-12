@@ -49,4 +49,4 @@ After that, you can simply run the training script: ```python main.py .\configs\
 
 ## :scroll: Citations
 
-Our work is based on the research of Ranflt et al. Unlike them, we will focus on ceramic semantic segmentation. Thank you for your support!
+Our work is based on the research of Ranflt et al. Thank you for your support!
