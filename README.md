@@ -1,5 +1,5 @@
 "# LLM-MDE" 
-# Deep-learning-based pyramid-transformer for localized porosity analysis of hot-press sintered ceramic paste
+# Large Language Models Can Understand Depth from Monocular Images
 
 ![pytorch](https://img.shields.io/badge/pytorch-v1.10-green.svg?style=plastic)
 ![wandb](https://img.shields.io/badge/wandb-v0.12.10-blue.svg?style=plastic)
@@ -17,7 +17,7 @@
 
 <!-- Recent works have shown that in the real world, humans
 rely on the image obtained by their left and right eyes in order to estimate depths of surrounding objects. Thus, -->
->Scanning Electron Microscope (SEM) is a crucial tool for studying microstructures of ceramic materials. However, the current practice heavily relies on manual efforts to extract porosity from SEM images. To address this issue, we propose PSTNet (Pyramid Segmentation Transformer Net) for grain and pore segmentation in SEM images, which merges multi-scale feature maps through operations like recombination and upsampling to predict and generate segmentation maps.
+>Monocular depth estimation is a critical function in computer vision applications. This paper shows that large language models can effectively interpret depth with minimal supervision, using efficient resource utilization and a consistent neural network architecture. We introduce LLM-MDE, a multimodal framework that deciphers depth through language comprehension. Specifically, LLM-MDE employs two main strategies to enhance the pretrained LLM's capability for depth estimation: cross-modal reprogramming and an adaptive prompt estimation module. These strategies align vision representations with text prototypes and automatically generate prompts based on monocular images, respectively. Comprehensive experiments on real-world MDE datasets confirm the effectiveness and superiority of LLM-MDE, which excels in few/zero-shot tasks while minimizing resource use. Code will be available upon acceptance.
 
 
 ## :pushpin: Requirements
@@ -47,15 +47,15 @@ Put your input images (that have to be ```.png``` or ```.jpg```) into the ```inp
 ### :wrench: Build the dataset
 
 Our model is trained on a combination of
-+ [Al2O3 Dataset](https://github.com/Howtocreateaname/DL-based-porosity-characterization)
-+ [Y2O3 Dataset]()
++ [Raw NYU Dataset]([https://github.com/Howtocreateaname/DL-based-porosity-characterization](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html))
 
-### :pencil: Configure ```config.json```
+
+### :pencil: Configure ```arguments_train_nyu.txt```
 
 Specific configurations are given in the paper
 
 ### :nut_and_bolt: Run the training script
-After that, you can simply run the training script: ```python train.py```
+After that, you can simply run the training script: ```python main.py .\configs\arguments_train_nyu.txt```
 
 
 ## :scroll: Citations
